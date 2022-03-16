@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+       
+        color: hsl(300, 43%, 22%);
+        font-family: 'Spartan', sans-serif;
+      }
+
+      p{
+        font-size: 15px;
+      }
+
+      main.container{
+        display: grid;
+        padding: 4rem;
+      }
+
+      .card{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+      }
+      .review-card{
+        padding: 1rem;
+      }
+
+      .top-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .top-right{
+        display: grid;
+        gap: 1rem;
+        align-content: center;
+      }
+
+      .bottom-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+      }
+
+      .review-card{
+        background-color: hsl(300, 43%, 22%);
+      }
+
+      .rating{
+        background-color: hsl(300, 24%, 96%);
+        padding: 1rem;
+        border-radius: .5rem;
+        
+      }
+
+      .review-blurb p{
+        color: white;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      p.name{
+        color: white;
+      }
+
+      p.verified{
+        color: hsl(333, 80%, 67%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="card">
+        <div class="top-container">
+          <div class="top-left">
+            <h1> 10,000+ of our users love our products.</h1>
+            <p>  We only provide great products combined with excellent customer service.
+              See what our satisfied customers are saying about our services.
+              </p>
+          </div>
+
+          <div class="top-right">
+            <div class="rating">
+              <span> 
+              <img src="./images/icon-star.svg" alt="">
+              <img src="./images/icon-star.svg" alt="">
+              <img src="./images/icon-star.svg" alt="">
+              <img src="./images/icon-star.svg" alt="">
+              <img src="./images/icon-star.svg" alt=""> 
+            </span> 5 Stars in Reviews</div>
+            <div class="rating">
+              <span> 
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt=""> 
+              </span>
+              Rated 5 Stars in Report Guru</div>
+            <div class="rating">
+              <span> 
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt="">
+                <img src="./images/icon-star.svg" alt=""> 
+              </span>Rated 5 Stars in BestTech</div>
+          </div>
+         
+        </div>
+        <div class="bottom-container">
+          <div class="review-card">
+            <div class="review-detail">
+              <img src="./images/image-irene.jpg" alt="">
+              <div class="review-info">
+                <p class="name">Irene Roberts </p>
+                <p class="verified"> Verified Buyer</p>
+              </div>
+              <div class="review-blurb">
+                <p> 
+                  "Customer service is always excellent and very quick turn around. Completely
+                  delighted with the simplicity of the purchase and the speed of delivery."</p>
+              </div>
+            </div>
+       </div>
+          <div class="review-card">
+            <div class="review-detail">
+              <img src="./images/image-irene.jpg" alt="">
+              <div class="review-info">
+                <p class="name">Colton Smith </p>
+                <p class="verified">Verified Buyer</p>
+              </div>
+              <div class="review-blurb">
+                <p> 
+            "We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"</p>
+              </div>
+          </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-detail">
+              <img src="./images/image-irene.jpg" alt="">
+              <div class="review-info">
+                <p class="name">Anne Wallace </p>
+                <p class="verified"> Verified Buyer</p>
+              </div>
+              <div class="review-blurb">
+                <p> 
+                  "Put an order with this company and can only praise them for the very high
+                  standard. Will definitely use them again and recommend them to everyone!"</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+
+    </main>
+   
+
+  </body>
+</html>
